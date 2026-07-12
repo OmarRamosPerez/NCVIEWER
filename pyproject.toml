@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ncviewer"
+version = "1.0.0"
+description = "NetCDF file viewer inspired by ncview"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Tu Nombre", email = "tu@email.com"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "PyQt5>=5.15",
+    "matplotlib>=3.5",
+    "netCDF4>=1.5",
+    "numpy>=1.21",
+    "cftime>=1.5",
+]
+
+[project.scripts]
+ncviewer = "ncviewer.main:main"
+
+[project.urls]
+Homepage = "https://github.com/tuusuario/ncviewer"
+Repository = "https://github.com/tuusuario/ncviewer"

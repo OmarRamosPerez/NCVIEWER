@@ -1,5 +1,5 @@
 # NCViewer
-[![Static Badge](https://img.shields.io/badge/pypi-3.4.4-brightgreen)](https://pypi.org/project/ncviewer/)
+[![Static Badge](https://img.shields.io/badge/pypi-1.0.2-brightgreen)](https://pypi.org/project/ncviewer/)
 
 NetCDF file viewer inspired by ncview, built with PyQt5 and Matplotlib.
 <br><br>

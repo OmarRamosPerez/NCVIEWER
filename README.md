@@ -36,7 +36,7 @@ pip show ncviewer
 # Support
 If you have any questions, do not hesitate to write to:
 ```
-
+omar.ramos@unison.mx
 ```
 You can write to me in English or Spanish.
 <br><br>
